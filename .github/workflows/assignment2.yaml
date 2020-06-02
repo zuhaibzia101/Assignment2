@@ -30,4 +30,4 @@ jobs:
     - name: Installing surge
       run: npm install -g surge
     - name: Deploy usuing surge
-      run: surge ./ garrulous-notebook.surge.sh --token $ {{ secrets.ASSIGNMENT2_TOKEN }}
+      run: surge ./ garrulous-notebook.surge.sh --token ${{secrets.ASSIGNMENT2_TOKEN}}
