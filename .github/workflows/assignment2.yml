@@ -28,6 +28,6 @@ jobs:
 
     # Runs a set of commands using the runners shell
     - name: Installing surge
-      run: npm install --global surge
+      run: npm install -g surge
       name: Deloying uses surge
-      run: surge ./ garrulous-notebook.surge.sh --token $ {{ secrets.ZUHAIB_TOKEN }}
+      run: surge ./ garrulous-notebook.surge.sh --token $ {{ secrets.ASSIGNMENT2_TOKEN }}
